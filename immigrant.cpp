@@ -36,7 +36,7 @@ int main(int argc, char **argv)
 	std::srand(time(NULL));
 
 	std::vector<std::string> items { "car", "vodka", "pizza", "kebab", "democracy", "coffee", "movies", "tea", "shirt", "oil", "electronics", "numbers", "letters" };
-	std::vector<std::string> nations { "German", "Russian", "Italian", "Turkish", "Greek", "Brazilian", "American", "Tamil", "Indian", "Arabian", "Chinese",  "Arabic", "Latin" };
+	std::vector<std::string> nations { "German", "Russian", "Italian", "Turkish", "Greek", "Brazilian", "American", "Tamil", "Indian", "Saudi Arabian", "Chinese",  "Arabic", "Latin" };
 
 	if (shuffle)	
 		std::random_shuffle( nations.begin(), nations.end() );
